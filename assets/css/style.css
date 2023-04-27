@@ -1,0 +1,98 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial;
+    background-color: #1e1e1e;
+}
+
+header {
+    width: 100%;
+    height:80px
+}
+.title {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 25px;
+    color: #fff;
+    background-color: #055c14;
+    padding: 10px;
+    border-radius: 15px;
+}
+#banner {
+    width: 100%;
+    height: 800px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.name, 
+.description {    
+    height: 750px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 25px;
+    color: #000;
+}
+
+.name {
+    width: 300px;
+    font-size: 50px;
+    background-color: #22d840;
+    color: #fff;
+}
+
+.description {
+    background-color: #256312;
+    color: #fff;
+}
+
+img {
+    height: 800px;
+    object-fit: contain;
+}
+
+.years {
+    margin: 20px;
+    padding: 20px;
+    background-color: #27862c;
+    text-align: center;
+    color: #fff;
+}
+
+section h2 {
+    background-color: #055c14;
+    padding: 10px;
+    border-radius: 5px;
+}
+section ul {
+    list-style-type: none;
+    padding-left: 0px;
+    background-color: #055c14;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section li {
+    font-weight: bold;
+}
+
+section dd {
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 0px;
+}
